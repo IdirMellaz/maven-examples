@@ -9,11 +9,15 @@ import static org.junit.Assert.assertThat;
  * @author Petri Kainulainen
  */
 public class FizzBuzzTest {
+private FizzBuzz fizzBuzz;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     private FizzBuzz fizzBuzz;
 
+=======
+>>>>>>> b16e21384fa3f5454e33ff8e686c1ccae9a15822
     @Before
     public void setUp() {
         fizzBuzz = new FizzBuzz();
@@ -23,6 +27,7 @@ public class FizzBuzzTest {
     public void getFizzBuzzWord_NumberIsMultipleOfThree_ShouldReturnFizz() {
         assertThat(fizzBuzz.getFizzBuzzWord(3), is("Fizz"));
     }
+<<<<<<< HEAD
 
     @Test
     public void getFizzBuzzWord_NumberIsMultipleOfFive_ShouldReturnBuzz() {
@@ -39,5 +44,7 @@ public class FizzBuzzTest {
         assertNull(fizzBuzz.getFizzBuzzWord(4));
     }
 >>>>>>> origin/ut2
+=======
+>>>>>>> b16e21384fa3f5454e33ff8e686c1ccae9a15822
 
 }
